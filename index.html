@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Biju Kulangara - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Kevin.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <h1>Hello, I'm <span class="typing"></span></h1>
+            <p>Computer Science Engineering student at SJCET | Interested in AI & Web Development</p>
+        </div>
+    </section>
+
+    <section id="about" class="about-section container" data-aos="fade-up">
+        <img src="photo.JPG" alt="Kevin Biju Kulangara" class="profile-photo">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>I am a passionate Computer Science Engineering student at St. Joseph's College of Engineering and Technology. I have a keen interest in Artificial Intelligence and Web Development. I enjoy solving complex problems and building innovative solutions that make a difference.</p>
+        </div>
+    </section>
+
+    <section id="interests" class="interests-section container" data-aos="fade-up">
+        <h2>My Interests</h2>
+        <div class="interests-grid">
+            <div class="interest-item">
+                <i class="fas fa-basketball-ball interest-icon"></i>
+                <span>Sports</span>
+            </div>
+            <div class="interest-item">
+                <i class="fas fa-dumbbell interest-icon"></i>
+                <span>Fitness Enthusiast</span>
+            </div>
+            <div class="interest-item">
+                <i class="fas fa-book interest-icon"></i>
+                <span>Reading Books</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section container" data-aos="fade-up">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card" data-aos="flip-left">
+                <h3>Health-based Web App</h3>
+                <p>An application to help users track their health metrics and find relevant health information.</p>
+                <a href="https://healthify-gules.vercel.app/index.html" class="project-link" target="_blank">View Project</a>
+            </div>
+            <div class="project-card" data-aos="flip-right" data-aos-delay="100">
+                <h3>Transportation Website</h3>
+                <p>A web application designed to optimize public transport routes and provide real-time updates.</p>
+                <a href="https://kevin1077.github.io/SIH-2024/" class="project-link" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements-section container" data-aos="fade-up">
+        <h2>My Achievements</h2>
+        <ul class="achievement-list">
+            <li data-aos="fade-right">Participated in Smart India Hackathon</li>
+            <li data-aos="fade-left" data-aos-delay="100">Participated in Model United Nations (MUN)</li>
+        </ul>
+    </section>
+
+    <section id="education" class="education-section container" data-aos="fade-up">
+        <h2>Education Background</h2>
+        <div class="education-cards">
+            <div class="education-card" data-aos="fade-right">
+                <i class="fas fa-school edu-icon"></i>
+                <h3>Secondary Education</h3>
+                <p>Labour India Public School</p>
+                <p>10th Percentage: <strong>93.6%</strong></p>
+            </div>
+            <div class="education-card" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-university edu-icon"></i>
+                <h3>Higher Secondary Education</h3>
+                <p>Labour India Public School</p>
+                <p>12th Percentage: <strong>92%</strong></p>
+            </div>
+            <div class="education-card" data-aos="fade-left" data-aos-delay="200">
+                <i class="fas fa-graduation-cap edu-icon"></i>
+                <h3>B.Tech in Computer Science Engineering</h3>
+                <p>St. Joseph's College of Engineering and Technology</p>
+                <p>CGPA (Current Semester): <strong>8.91</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section container" data-aos="fade-up">
+        <h2>Get In Touch</h2>
+        <p>Feel free to connect with me!</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/kevin-biju-837000280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/Kevin1077" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kevinbijukulangara@gmail.com" target="_blank"><i class="fas fa-envelope"></i> Gmail</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            © 2025 Kevin Biju Kulangara. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        AOS.init({ duration: 1000 });
+        var typed = new Typed('.typing', {
+            strings: ["Kevin Biju Kulangara"],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: false
+        });
+    </script>
+</body>
+</html>
